@@ -121,7 +121,7 @@ class App extends Component {
       `,
     };
     fetch(`http://localhost:8080/graphql`, {
-      method: "PUT",
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
