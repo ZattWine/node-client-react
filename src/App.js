@@ -61,7 +61,7 @@ class App extends Component {
     this.setState({ authLoading: true });
     const graphqlQuery = {
       query: `
-        query {
+        {
           login(email: "${authData.email}", password: "${authData.password}") {
             userId
             token
